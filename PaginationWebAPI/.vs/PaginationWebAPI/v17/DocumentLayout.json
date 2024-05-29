@@ -1,0 +1,263 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|d:\\visualstudio\\source\\repos\\mentor assignments\\mentortasktracker\\paginationwebapi\\model\\employeedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|solutionrelative:model\\employeedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\Migrations\\20240523175452_EmployeeData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240523175452_EmployeeData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\data\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|solutionrelative:data\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|d:\\visualstudio\\source\\repos\\mentor assignments\\mentortasktracker\\paginationwebapi\\services\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|solutionrelative:services\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|d:\\visualstudio\\source\\repos\\mentor assignments\\mentortasktracker\\paginationwebapi\\model\\employeedetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|solutionrelative:model\\employeedetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|d:\\visualstudio\\source\\repos\\mentor assignments\\mentortasktracker\\paginationwebapi\\paginationwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|solutionrelative:paginationwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|d:\\visualstudio\\source\\repos\\mentor assignments\\mentortasktracker\\paginationwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|d:\\visualstudio\\source\\repos\\mentor assignments\\mentortasktracker\\paginationwebapi\\migrations\\20240523160003_employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|solutionrelative:migrations\\20240523160003_employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|d:\\visualstudio\\source\\repos\\mentor assignments\\mentortasktracker\\paginationwebapi\\employeedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|solutionrelative:employeedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|d:\\visualstudio\\source\\repos\\mentor assignments\\mentortasktracker\\paginationwebapi\\paginationwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{6994D4DF-35A8-475C-ADA9-E18DDA4E4B15}|PaginationWebAPI.csproj|solutionrelative:paginationwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 202,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1322482140:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240523175452_EmployeeData.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\Migrations\\20240523175452_EmployeeData.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240523175452_EmployeeData.cs",
+              "ToolTip": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\Migrations\\20240523175452_EmployeeData.cs",
+              "RelativeToolTip": "Migrations\\20240523175452_EmployeeData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T17:54:52.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeDetails.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\Model\\EmployeeDetails.cs",
+              "RelativeDocumentMoniker": "Model\\EmployeeDetails.cs",
+              "ToolTip": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\Model\\EmployeeDetails.cs",
+              "RelativeToolTip": "Model\\EmployeeDetails.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAwCsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T17:28:58.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeDbContext.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\Data\\EmployeeDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\EmployeeDbContext.cs",
+              "ToolTip": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\Data\\EmployeeDbContext.cs",
+              "RelativeToolTip": "Data\\EmployeeDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:21:59.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeDetailsDto.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\Model\\EmployeeDetailsDto.cs",
+              "RelativeDocumentMoniker": "Model\\EmployeeDetailsDto.cs",
+              "ToolTip": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\Model\\EmployeeDetailsDto.cs",
+              "RelativeToolTip": "Model\\EmployeeDetailsDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwCYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:29:55.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAA2wCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:24:51.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\Services\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "Services\\AutoMapperProfile.cs",
+              "ToolTip": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\Services\\AutoMapperProfile.cs",
+              "RelativeToolTip": "Services\\AutoMapperProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:51:45.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T11:25:01.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T13:36:14.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaginationWebAPI",
+              "DocumentMoniker": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\PaginationWebAPI.csproj",
+              "RelativeDocumentMoniker": "PaginationWebAPI.csproj",
+              "ToolTip": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\PaginationWebAPI.csproj",
+              "RelativeToolTip": "PaginationWebAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-23T16:51:13.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-23T16:19:27.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240523160003_EmployeeDto.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\Migrations\\20240523160003_EmployeeDto.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240523160003_EmployeeDto.cs",
+              "ToolTip": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\Migrations\\20240523160003_EmployeeDto.cs",
+              "RelativeToolTip": "Migrations\\20240523160003_EmployeeDto.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAA2wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T16:00:03.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeDatabase.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\EmployeeDatabase.cs",
+              "RelativeDocumentMoniker": "EmployeeDatabase.cs",
+              "ToolTip": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\EmployeeDatabase.cs",
+              "RelativeToolTip": "EmployeeDatabase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T15:24:23.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PaginationWebAPI.http",
+              "DocumentMoniker": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\PaginationWebAPI.http",
+              "RelativeDocumentMoniker": "PaginationWebAPI.http",
+              "ToolTip": "D:\\VisualStudio\\source\\repos\\Mentor Assignments\\MentorTaskTracker\\PaginationWebAPI\\PaginationWebAPI.http",
+              "RelativeToolTip": "PaginationWebAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-05-23T15:24:19.858Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 198,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
