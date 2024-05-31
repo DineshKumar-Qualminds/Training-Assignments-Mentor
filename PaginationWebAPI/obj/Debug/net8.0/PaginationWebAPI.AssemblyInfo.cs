@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PaginationWebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+372f1bcddd39bf791ff50ee156c222e3c1c3a798")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b79c8b6250de84966197e031cdd7bdc438c47ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("PaginationWebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PaginationWebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
