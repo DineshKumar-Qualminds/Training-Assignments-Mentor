@@ -1,0 +1,15 @@
+D:\VisualStudio\source\repos\Training-Mentor-Assignments\Generics\bin\Debug\net8.0\Generics.exe
+D:\VisualStudio\source\repos\Training-Mentor-Assignments\Generics\bin\Debug\net8.0\Generics.deps.json
+D:\VisualStudio\source\repos\Training-Mentor-Assignments\Generics\bin\Debug\net8.0\Generics.runtimeconfig.json
+D:\VisualStudio\source\repos\Training-Mentor-Assignments\Generics\bin\Debug\net8.0\Generics.dll
+D:\VisualStudio\source\repos\Training-Mentor-Assignments\Generics\bin\Debug\net8.0\Generics.pdb
+D:\VisualStudio\source\repos\Training-Mentor-Assignments\Generics\obj\Debug\net8.0\Generics.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio\source\repos\Training-Mentor-Assignments\Generics\obj\Debug\net8.0\Generics.AssemblyInfoInputs.cache
+D:\VisualStudio\source\repos\Training-Mentor-Assignments\Generics\obj\Debug\net8.0\Generics.AssemblyInfo.cs
+D:\VisualStudio\source\repos\Training-Mentor-Assignments\Generics\obj\Debug\net8.0\Generics.csproj.CoreCompileInputs.cache
+D:\VisualStudio\source\repos\Training-Mentor-Assignments\Generics\obj\Debug\net8.0\Generics.sourcelink.json
+D:\VisualStudio\source\repos\Training-Mentor-Assignments\Generics\obj\Debug\net8.0\Generics.dll
+D:\VisualStudio\source\repos\Training-Mentor-Assignments\Generics\obj\Debug\net8.0\refint\Generics.dll
+D:\VisualStudio\source\repos\Training-Mentor-Assignments\Generics\obj\Debug\net8.0\Generics.pdb
+D:\VisualStudio\source\repos\Training-Mentor-Assignments\Generics\obj\Debug\net8.0\Generics.genruntimeconfig.cache
+D:\VisualStudio\source\repos\Training-Mentor-Assignments\Generics\obj\Debug\net8.0\ref\Generics.dll
