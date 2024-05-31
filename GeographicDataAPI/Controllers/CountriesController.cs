@@ -28,11 +28,7 @@ namespace GeographicDataAPI.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Country>> GetCountry(int id)
         {
-            var country = await _context.Countries.Include(c => c.States).Select(e=> new
-            {
-                e.Id,
-                e.Name,
-            }).ThenInclude(s => s.Districts).FirstOrDefaultAsync(c => c.Id == id);
+            var country = await _context.Countries.Include(c => c.States).ThenInclude(s => s.Districts).FirstOrDefaultAsync(c => c.Id == id);
 
             if (country == null)
             {
