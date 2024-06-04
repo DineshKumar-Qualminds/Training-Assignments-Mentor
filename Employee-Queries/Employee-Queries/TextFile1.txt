@@ -1,0 +1,9 @@
+﻿SELECT e.emp_id,e.emp_name,e.dept_name,e.salary
+FROM EmployeeDetails e 
+INNER JOIN (
+SELECT dept_name,MAX(salary) As Max_Salary,MIN(salary) AS Min_Salary 
+FROM EmployeeDetails 
+GROUP BY dept_name 
+) AS dept_salaries 
+ON e.dept_name = dept_salaries.dept_name 
+Where e.salary IN (dept_salaries.Max_Salary,dept_salaries.Min_Salary);
