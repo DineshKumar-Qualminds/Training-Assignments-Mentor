@@ -1,15 +1,15 @@
 ﻿using GeographicDataAPI.Data;
 using GeographicDataAPI.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace GeographicDataAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-
     public class CountriesController : ControllerBase
     {
         private readonly GeographicDbContext _context;
@@ -28,18 +28,33 @@ namespace GeographicDataAPI.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Country>> GetCountry(int id)
         {
-            var country = await _context.Countries.Include(c => c.States).Select(e=> new
-            {
-                e.Id,
-                e.Name,
-            }).ThenInclude(s => s.Districts).FirstOrDefaultAsync(c => c.Id == id);
+            var country = await _context.Countries
+                .Include(c => c.States)
+                .ThenInclude(s => s.Districts)
+                .FirstOrDefaultAsync(c => c.Id == id);
 
             if (country == null)
             {
                 return NotFound();
             }
 
-            return country;
+            var result = new
+            {
+                country.Id,
+                country.Name,
+                States = country.States.Select(s => new
+                {
+                    s.Id,
+                    s.Name,
+                    Districts = s.Districts.Select(d => new
+                    {
+                        d.Id,
+                        d.Name
+                    })
+                })
+            };
+
+            return Ok(result);
         }
 
         [HttpPut("{id}")]
@@ -100,5 +115,4 @@ namespace GeographicDataAPI.Controllers
             return _context.Countries.Any(e => e.Id == id);
         }
     }
-  
 }
