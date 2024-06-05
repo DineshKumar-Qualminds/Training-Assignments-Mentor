@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaginationWebAPI", "Paginat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIWithLINQ", "WebAPIWithLINQ\WebAPIWithLINQ.csproj", "{DC777CD0-F16C-4C47-BA11-5223926A8B4D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FundamentalPrograms", "FundamentalPrograms\FundamentalPrograms.csproj", "{10D3114F-6D34-4819-AD0E-FA502071A713}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicPrograms", "FundamentalPrograms\BasicPrograms.csproj", "{10D3114F-6D34-4819-AD0E-FA502071A713}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
