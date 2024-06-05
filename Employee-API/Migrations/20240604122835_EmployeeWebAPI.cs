@@ -5,7 +5,7 @@
 namespace Employee_API.Migrations
 {
     /// <inheritdoc />
-    public partial class Employee : Migration
+    public partial class EmployeeWebAPI : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -14,15 +14,15 @@ namespace Employee_API.Migrations
                 name: "Employees",
                 columns: table => new
                 {
-                    emp_Id = table.Column<int>(type: "int", nullable: false)
+                    EmpId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    emp_Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    dept_Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    salary = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
+                    EmpName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DeptName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Salary = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Employees", x => x.emp_Id);
+                    table.PrimaryKey("PK_Employees", x => x.EmpId);
                 });
         }
 

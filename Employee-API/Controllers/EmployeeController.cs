@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Employee_API.Model;
+using System;
 
 namespace Employee_API.Controllers
 {
@@ -23,36 +24,25 @@ namespace Employee_API.Controllers
             return await _context.Employees.ToListAsync();
         }
 
-        [HttpGet("get/{emp_Id}")]
-        public async Task<ActionResult<IEnumerable<Employee>>> GetEmployeeById(int emp_Id)
-        {
-            var employee = await _context.Employees.FindAsync(emp_Id);
-
-            if(employee == null) {
-
-              return NotFound();    
-            }
-            return Ok(employee);
-        }
 
         [HttpGet("search")]
-        public async Task<ActionResult<IEnumerable<Employee>>> SearchEmployee(int? Id = null, string Name = null, string DepartmentName = null)
+        public async Task<ActionResult<IEnumerable<Employee>>> SearchEmployee([FromQuery] EmployeeDto searchDto)
         {
             var query = _context.Employees.AsQueryable();
 
-            if (Id.HasValue)
+            if (searchDto.EmpId.HasValue)
             {
-                query = query.Where(e => e.emp_Id == Id.Value);
+                query = query.Where(e => e.EmpId == searchDto.EmpId.Value);
             }
 
-            if (!string.IsNullOrEmpty(Name))
+            if (!string.IsNullOrEmpty(searchDto.EmpName))
             {
-                query = query.Where(e => e.emp_Name.Contains(Name));
+                query = query.Where(e => e.EmpName.Contains(searchDto.EmpName));
             }
 
-            if (!string.IsNullOrEmpty(DepartmentName))
+            if (!string.IsNullOrEmpty(searchDto.DeptName))
             {
-                query = query.Where(e => e.dept_Name.Contains(DepartmentName));
+                query = query.Where(e => e.DeptName.Contains(searchDto.DeptName));
             }
 
             var searchEmployee = await query.ToListAsync();
@@ -66,18 +56,86 @@ namespace Employee_API.Controllers
         }
 
 
+
+
+        /* [HttpGet("search")]
+         public async Task<ActionResult<IEnumerable<Employee>>> SearchEmployee([FromQuery] EmployeeDto searchDto)
+         {
+             var query = _context.Employees.AsQueryable();
+
+             switch (searchDto)
+             {
+                 case { EmpId: var empId } when empId.HasValue:
+                     query = query.Where(e => e.EmpId == empId.Value);
+                     break;
+                 case { EmpName: var empName } when !string.IsNullOrEmpty(empName):
+                     query = query.Where(e => e.EmpName.Contains(empName));
+                     break;
+                 case { DeptName: var deptName } when !string.IsNullOrEmpty(deptName):
+                     query = query.Where(e => e.DeptName.Contains(deptName));
+                     break;
+                 case { Salary: var salary } when salary.HasValue:
+                     query = query.Where(e => e.Salary == salary.Value);
+                     break;
+             }
+
+             var searchEmployee = await query.ToListAsync();
+
+             if (!searchEmployee.Any())
+             {
+                 return NotFound("No employees found matching the search criteria.");
+             }
+
+             return Ok(searchEmployee);
+         }*/
+
+        /*[HttpGet("search")]
+        public async Task<ActionResult<IEnumerable<Employee>>> SearchEmployee([FromQuery] EmployeeDto searchDto)
+        {
+            var query = _context.Employees.AsQueryable();
+
+            if (searchDto.EmpId.HasValue)
+            {
+                query = query.Where(e => e.EmpId == searchDto.EmpId.Value);
+            }
+            else if (!string.IsNullOrEmpty(searchDto.EmpName))
+            {
+                query = query.Where(e => e.EmpName.Contains(searchDto.EmpName));
+            }
+            else if (!string.IsNullOrEmpty(searchDto.DeptName))
+            {
+                query = query.Where(e => e.DeptName.Contains(searchDto.DeptName));
+            }
+            else if (searchDto.Salary.HasValue)
+            {
+                query = query.Where(e => e.Salary == searchDto.Salary.Value);
+            }
+
+            var searchEmployee = await query.ToListAsync();
+
+            if (!searchEmployee.Any())
+            {
+                return NotFound("No employees found matching the search criteria.");
+            }
+
+            return Ok(searchEmployee);
+        }
+*/
+
+
+
         [HttpPost("add")]
         public async Task<IActionResult> AddEmployeeDetails(Employee employee)
         {
             _context.Employees.Add(employee);
             await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetEmployees), new {id = employee.emp_Id},employee);
+            return CreatedAtAction(nameof(GetEmployees), new {id = employee.EmpId},employee);
         }
 
         [HttpPut("update")]
         public async Task<IActionResult> UpdateEmployeeDetails(int id,Employee employee)
         {
-            if(id != employee.emp_Id) 
+            if(id != employee.EmpId) 
             {
                 return BadRequest();
             }
@@ -117,7 +175,7 @@ namespace Employee_API.Controllers
 
         private bool EmployeeExits(int id)
         {
-            return _context.Employees.Any( e => e.emp_Id == id);
+            return _context.Employees.Any( e => e.EmpId == id);
         }
     }
 }
