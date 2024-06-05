@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/EmployeeDataWebAPI/obj/Release/net8.0
+/Employee-API
+/Employee-Queries
+/ExceptionalHandling/obj/Release/net8.0
+/Generics/obj/Release/net8.0
+/GeographicDataAPI
+/Inheritance/obj/Release/net8.0
+/PaginationUsingDS&CB/obj/Release/net8.0
+/PaginationWebAPI/obj/Release/net8.0
+/WebAPIWithLINQ/obj/Release/net8.0
+/.vs
